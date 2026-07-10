@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: lion-cave.github.io
+  baseUrl: al-lion.github.io/lion-cave
   ignorePatterns:
     - private
     - templates
