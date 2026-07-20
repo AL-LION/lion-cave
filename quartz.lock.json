@@ -37,6 +37,12 @@
       "commit": "84fc96799671a65f76b66e30217dbefdd43a2905",
       "installedAt": "2026-07-10T18:02:15.338Z"
     },
+    "card-shapes": {
+      "source": "github:AL-LION/card-shapes",
+      "resolved": "https://github.com/AL-LION/card-shapes.git",
+      "commit": "fac09214e963998e612d362e1e7a7e56760988e2",
+      "installedAt": "2026-07-20T20:39:16.764Z"
+    },
     "citations": {
       "source": "github:quartz-community/citations",
       "resolved": "https://github.com/quartz-community/citations.git",
