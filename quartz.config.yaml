@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: LION CAVE
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -185,6 +185,8 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
+    options:
+      showReadingTime: false
   - source: github:quartz-community/tag-list
     enabled: false
     layout:
@@ -202,7 +204,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
@@ -222,7 +224,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: true
+    enabled: false
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
@@ -249,6 +251,7 @@ plugins:
         - description
         - tags
         - aliases
+        - link
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---

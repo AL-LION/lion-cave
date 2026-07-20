@@ -1,0 +1,14 @@
+filters:
+  and:
+    - collection == "inspiration"
+views:
+  - type: cards
+    name: Gallery
+    order:
+      - tags
+      - card-shape
+    image: note.thumbnail
+    cardSize: 260
+    imageAspectRatio: 1.9
+  - type: list
+    name: View

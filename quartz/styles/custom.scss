@@ -1,3 +1,26 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Left sidebar
+.left.sidebar {
+//   background: #f3f3f3;
+//   border-right: 1px solid #d9d9d9;
+  padding: 1.5rem;
+}
+
+// Site title
+.page-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+// Explorer title
+.explorer .title-button {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+// Explorer links
+.explorer a {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}

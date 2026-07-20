@@ -1,7 +1,9 @@
 ---
-title: Testing Title
-draft: false
+title:
 tags:
-  -
+  - 
+link:
+thumbnail: attachments/
+draft: false
 ---
  
